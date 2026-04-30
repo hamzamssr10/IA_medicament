@@ -31,7 +31,7 @@ IP = os.getenv("IP", "127.0.0.1")
 
 SNAPSHOT_API_URL = f"http://{IP}/api/v2/fridge/snapshot"
 
-API_HOST = 0.0.0.0 #os.getenv("API_HOST", "0.0.0.0")
+API_HOST ="0.0.0.0" #os.getenv("API_HOST", "0.0.0.0")
 API_PORT = 8000 #int(os.getenv("API_PORT", "8000"))
 
 BACKEND_TIMEOUT_SEC = 5
