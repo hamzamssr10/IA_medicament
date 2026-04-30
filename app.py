@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("cam_server")
 
 # ── Configuration ────────────────────────────────────────────────────────────
-CAM_INDICES = [1, 0, 2, 3]   # Camera device indices (int) or RTSP URLs (str)
+CAM_INDICES = [1, 0, 2, 4]   # Camera device indices (int) or RTSP URLs (str)
 HOST        = "0.0.0.0"
 PORT        = 8080
 # ─────────────────────────────────────────────────────────────────────────────
